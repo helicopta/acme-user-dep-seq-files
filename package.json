@@ -1,0 +1,26 @@
+{
+  "name": "acme-user-dep-seq-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "DATABASE_URL=postgres://localhost/user_department nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helicopta/acme-user-dep-seq-files.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helicopta/acme-user-dep-seq-files/issues"
+  },
+  "homepage": "https://github.com/helicopta/acme-user-dep-seq-files#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "sequelize": "^3.30.2"
+  }
+}
